@@ -84,7 +84,7 @@ def generate_text(result):
     return template 
 
 ###API FUNCTION
-@app.route('/api', methods=['GET'])
+@app.route('/api', methods=['POST'])
 def api_endpoint():
     try:
         # Get the parameters from the request

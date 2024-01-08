@@ -1,2 +1,2 @@
-web: gunicorn api_tree_gen:app --timeout 300 --keep-alive 5
+web: gunicorn main:app --timeout 300 --keep-alive 5
 
