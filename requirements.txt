@@ -1,0 +1,10 @@
+pandas==1.2.2
+streamlit==0.82.0
+xlrd==1.2.0
+haversine==2.3.0
+Flask_RESTful==0.3.9
+Flask==2.0.1
+geopy==2.1.0
+gunicorn==20.1.0
+flask_cors
+tenacity
