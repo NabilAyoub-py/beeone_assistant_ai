@@ -192,4 +192,4 @@ def api_endpoint():
 
 if __name__ == '__main__':
     # Run the Flask app
-    app.run(debug=True, threaded=True)
+    app.run(debug=False, threaded=True, port=9060, host = '0.0.0.0')
